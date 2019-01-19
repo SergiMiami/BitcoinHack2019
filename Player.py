@@ -1,8 +1,6 @@
-import Bank
+import uuid
 
 class Player:
 
-    def __init__(selfself, player):
-    self.id = player
-    self.bank = Bank()
-
+    def __init__(selfself):
+        self.id = uuid.uuid4()

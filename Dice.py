@@ -2,7 +2,7 @@ import numpy as np
 
 class Dice:
 
-    def __init__(selfself):
+    def __init__(self):
         self.sum = None
         self.double = False
         self.doubleCount = 0
@@ -12,7 +12,7 @@ class Dice:
         """Rolls two fair 6-sided dice"""
 
         roll = np.random.choice(np.arange(1,7), 2)
-
+        print(roll)
         self.sum = roll.sum()
         self.double = roll[0] == roll[1]
         self.doubleCount += self.double
