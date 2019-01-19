@@ -1,14 +1,13 @@
 
 
 class Space:
-
+    """Template for board spaces"""
     def __init__(self, attributes):
         self.name = attributes['name']
         self.pos = attributes['position']
 
-
 class Property(Space):
-
+    """properties"""
     def __init__(self, attributes):
 
         Space.__init__(self, attributes)
