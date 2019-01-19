@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477156ee-f955-4274-8aeb-b50dac51ab60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bcode/bcode/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcode/bcode/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/bcode/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcode/bcode/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/bcode/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/bcode/bcode/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="e#629#661#0" expanded="true" />
               </folding>
@@ -29,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bcode/bcode/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -48,12 +56,13 @@
       <list>
         <option value="$PROJECT_DIR$/bcode/bcode/views.py" />
         <option value="$PROJECT_DIR$/bcode/bcode/urls.py" />
+        <option value="$PROJECT_DIR$/bcode/bcode/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="625" />
-    <option name="y" value="35" />
+    <option name="x" value="332" />
+    <option name="y" value="30" />
     <option name="width" value="1401" />
     <option name="height" value="956" />
   </component>
@@ -117,7 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="625" y="35" width="1401" height="956" extended-state="0" />
+    <frame x="332" y="30" width="1401" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24927536" />
@@ -159,7 +168,7 @@
     <entry file="file://$PROJECT_DIR$/bcode/bcode/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
           </folding>
@@ -169,7 +178,14 @@
     <entry file="file://$PROJECT_DIR$/bcode/bcode/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
