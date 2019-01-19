@@ -1,6 +1,6 @@
 from uuid import uuid4
 from block_io import BlockIo
-from random import randint
+
 
 class Bank:
 
@@ -15,5 +15,5 @@ class Bank:
     def genAddress(self):
         return(Bank.io.get_new_address())
 
-    def genAddress(self, label=randint(0,100)):
+    def genAddress(self, label=uuid4()):
         return(Bank.io.get_new_address(label=label))
