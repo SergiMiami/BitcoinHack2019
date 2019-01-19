@@ -1,3 +1,8 @@
+import Bank
 
 class Player:
-    self.bank
+
+    def __init__(selfself, player):
+    self.id = player
+    self.bank = Bank()
+

@@ -33,3 +33,13 @@ class Tax(Space):
     def __init__(selfself, attributes):
         Space.__init__(self, attributes)
         self.tax = attributes['tax']
+
+
+class Card(object):
+    pass
+
+class Chance(Card):
+    pass
+
+class Chest(Card):
+    pass
