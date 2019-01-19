@@ -1,2 +1,21 @@
 # BitcoinHack2019
 Bitcoin Hackathon Miami 2019 
+
+
+Cryptopoly
+
+• Fast-dealing property trading game
+
+• Players buy, sell and trade properties to win
+
+• Build houses and hotels on properties
+
+• Change your fortune with Chance and Community Chest cards.
+
+• Bankrupt your opponents to win it all
+
+• Except against the bank, they always win
+
+• Use Bitcoin and Lightning to learn about the future of money!
+
+Players move their tokens around the board and attempt to build wealth and own all the assets on their pursuit of the perfection of capitalism.  The biggest difference between Cryptopoly and the classic game of Monopoly is that the bank is unable to print more Bitcoin!
