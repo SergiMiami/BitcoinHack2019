@@ -12,7 +12,7 @@ Illinois Avenue
 Indiana Avenue
 Kentucky Avenue
 Marvin Gardens
-Mt. Gox
+Mediterranean
 New York Avenue
 North Carolina Avenue
 Oriental Avenue
@@ -61,3 +61,80 @@ Coventry Street
 Euston Road
 Northumberland Avenue
 Water Works
+
+CRYPTO VERSION
+--------------
+Go - New Block Added, generate BTC
+
+Luxury Tax - BitLicense
+Income Tax - KYC/AML
+
+WaterWorks -
+Electric Company -
+
+Jail - Cold Storage
+Just visiting - Warm Storage
+
+Free Parking - Bitcoin Faucet
+Go to jail - Go to Cold Storage
+
+Community Chest - Bitcoin Improvement Proposal
+Chance - Consensus Rule Change
+
+Reading - Bitstamp
+Pennsylvania - BitMEX
+B & O - Bitfinex
+Short Line - Coinbase
+
+Mediterranean - Bitcoin Core
+Baltic - btcd
+
+Oriental - Mycelium
+Vermont - Electrum
+Connecticut - Samourai
+
+St. Charles - cpuminer
+States - cgminer
+Virginia - BraiinsOS
+
+St. James - LocalBitcoins
+Tennessee - Bisq
+New York - OpenBazaar
+
+Kentucky - SlushPool
+Indiana - AntPool
+Illinois - BTC.com
+
+Atlantic - Independent Developer
+Ventnor - Chaincode Labs
+Marvin - Blockstream
+
+Pacific - Canaan
+North Carolina - Bitmain
+Pennsylvania - TSMC
+
+Park - The Lab Miami
+Boardwalk - Lightning Network
+
+
+List of BIP cards:
+-BIP 0001 (Process)- BIP Purpose and Guidelines (Amir Taki)
+-Confidential Transactions
+-SegWit
+-Merkalized Abstract Syntax Trees
+-Schnorr Signatures
+-Dandelion
+-Heirarchical Deterministic Wallets
+-Mnemonic Seeds
+-Stealth Addresses
+-Malleability Fix
+-Pay to Script Hash
+-OP_CHECKLOCKTIMEVERIFY
+
+
+List of Consensus cards:
+-Blocksize Debate
+-51% attack
+-Lose Private Keys and Restore from Seed (Go to Warm Storage)
+-Glacier Protocol (Go to Cold Storage)
+-
