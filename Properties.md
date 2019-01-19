@@ -70,8 +70,9 @@ Luxury Tax - BitLicense
 
 Income Tax - KYC/AML
 
-WaterWorks -
-Electric Company -
+WaterWorks - BlockCypher
+
+Electric Company - OXT
 
 Jail - Cold Storage
 
