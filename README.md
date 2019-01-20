@@ -24,3 +24,5 @@ Players move their tokens around the board and attempt to build wealth and own a
 Presentation: https://docs.google.com/presentation/d/1UGmVC-33LnxtA8CzqsgCC0G5dSmt4YaRhAggV4zWk_4/edit?usp=sharing
 
 ![alt text](https://github.com/SergiMiami/BitcoinHack2019/blob/master/bcode%20Dashboard.png?raw=true)
+
+[[https://github.com/SergiMiami/BitcoinHack2019/tree/master/img/board.png|alt=octocat]]
