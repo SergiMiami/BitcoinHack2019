@@ -19,3 +19,6 @@ Cryptopoly
 • Use Bitcoin and Lightning to learn about the future of money!
 
 Players move their tokens around the board and attempt to build wealth and own all the assets on their pursuit of the perfection of capitalism.  The biggest difference between Cryptopoly and the classic game of Monopoly is that the bank is unable to print more Bitcoin!
+
+
+Presentation: https://docs.google.com/presentation/d/1UGmVC-33LnxtA8CzqsgCC0G5dSmt4YaRhAggV4zWk_4/edit?usp=sharing
