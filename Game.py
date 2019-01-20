@@ -47,10 +47,9 @@ class Game():
 
 game = Game()
 
-Bank.getAddresses()
-print('\n')
-Bank.getAddressBalance('2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2')
-Bank.getAddressBalance('2MybmVZC1fcwsU9tbdkUYAA3XuTSL5hhXsF')
+Bank.printAddresses()
 
-Bank.generateQR('2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2')
-Bank.generateQR('2MybmVZC1fcwsU9tbdkUYAA3XuTSL5hhXsF')
+#for address in Bank.getAddresses():
+#    Bank.getAddressBalance(address=address['address'])
+
+Bank.send(0.069969, '2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2', '2Mwse58gJGpgudj47a59KfKGWxdxHwxpCJ1')

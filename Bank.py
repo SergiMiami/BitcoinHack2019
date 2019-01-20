@@ -19,22 +19,32 @@ class Bank:
         return address
 
 
-    def getAddresses():
-        addresses = Bank.io.get_my_addresses()
-        for item in addresses['data']['addresses']:
+    def printAddresses():
+        data = Bank.io.get_my_addresses()
+        for item in data['data']['addresses']:
             print(item['address'])
         print('\n')
 
 
+    def getAddresses():
+        addresses = []
+        data = Bank.io.get_my_addresses()
+        for item in data['data']['addresses']:
+            addresses.append(item)
+        return addresses
+
+
+
     def getAddressBalance(address):
-        balance = Bank.io.get_address_balance(address)
-        print('Address: %s, Available Balance: %s, Pending Balance: %s\n' %
-                        (address, balance['data']['available_balance'], balance['data']['pending_received_balance']))
+        balance = Bank.io.get_address_balance(address=address)
+        print('Address: %s, Available Balance: %s\n' %
+                        (address, balance['data']['available_balance']))
 
 
     def getWalletBalance():
         balance = Bank.io.get_balance()
-        return balance
+        print('Account Balance: %s, Pending Balance: %s\n' %
+                        (balance['data']['available_balance'], balance['data']['pending_received_balance']))
 
 
     def send(amounts, inputs, outputs):
@@ -55,6 +65,6 @@ class Bank:
 
         img = qr.make_image()
 
-        img.save('img/%s.img' % address)
+        img.save('img/%s.png' % address)
 
 
