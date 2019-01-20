@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477156ee-f955-4274-8aeb-b50dac51ab60" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/BitcoinHack2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BitcoinHack2019.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -9,6 +10,11 @@
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/2MybmVZC1fcwsU9tbdkUYAA3XuTSL5hhXsF.img" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2.img" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/bcode/player/static/player/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcode/player/templates/player/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/player/templates/player/home.html" afterDir="false" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bank.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,19 +36,34 @@
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bcode/player/templates/player/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Dice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+=======
+        <entry file="file://$PROJECT_DIR$/bcode/player/static/player/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Player.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,6 +85,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -79,18 +103,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bcode/bcode/views.py" />
+        <option value="$PROJECT_DIR$/bcode/gameplay/admin.py" />
+        <option value="$PROJECT_DIR$/bcode/player/urls.py" />
         <option value="$PROJECT_DIR$/bcode/bcode/urls.py" />
         <option value="$PROJECT_DIR$/bcode/bcode/settings.py" />
         <option value="$PROJECT_DIR$/bcode/gameplay/models.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/genAddress.py" />
         <option value="$PROJECT_DIR$/Bank.py" />
         <option value="$PROJECT_DIR$/Game.py" />
+=======
+        <option value="$PROJECT_DIR$/bcode/player/views.py" />
+        <option value="$PROJECT_DIR$/bcode/player/static/player/style.css" />
+        <option value="$PROJECT_DIR$/bcode/player/templates/player/home.html" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
-    <option name="y" value="168" />
+    <option name="x" value="650" />
+    <option name="y" value="436" />
     <option name="width" value="1401" />
     <option name="height" value="956" />
   </component>
@@ -107,6 +139,50 @@
               <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
           </expand>
           <select />
         </subPane>
@@ -116,6 +192,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bcode" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,12 +253,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-35" y="23" width="1401" height="777" extended-state="0" />
+=======
+    <frame x="650" y="436" width="1401" height="956" extended-state="0" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24927536" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
@@ -197,15 +284,36 @@
     <entry file="file://$PROJECT_DIR$/django/bcode/bcode/urls.py" />
     <entry file="file://$PROJECT_DIR$/django/bcode/bcode/wsgi.py" />
     <entry file="file://$PROJECT_DIR$/django/bcode/bcode/settings.py" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/bcode/gameplay/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/player/templates/urls.py" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
     <entry file="file://$PROJECT_DIR$/bcode/bcode/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/gameplay/migrations/0002_game_status.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bcode/bcode/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -214,26 +322,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcode/gameplay/migrations/0002_game_status.py">
+    <entry file="file://$PROJECT_DIR$/bcode/gameplay/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcode/gameplay/models.py">
+    <entry file="file://$PROJECT_DIR$/bcode/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state>
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/gameplay/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/genAddress.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -271,6 +388,39 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/bcode/player/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/player/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/player/static/player/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/player/templates/player/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+>>>>>>> 3bead31bd3194611de62ab44dff9daa78de5cbfb
         </state>
       </provider>
     </entry>
