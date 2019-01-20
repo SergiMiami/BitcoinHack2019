@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
+from .forms import InvitationForm
 from gameplay.models import Game
 
 @login_required
@@ -20,3 +21,8 @@ def home(request):
                    'num_games': Game.object.count(),
                    'n_games': len(all_my_games)})
 
+
+@login_required
+def new_invitation(request):
+    form = InvitationForm()
+    return render(request, "player/new_invitation_form.html", {form: 'form'})
