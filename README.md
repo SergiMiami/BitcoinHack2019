@@ -10,7 +10,7 @@ Cryptopoly
 
 • Build houses and hotels on properties
 
-• Change your fortune with Chance and Community Chest cards.
+• Change your fortune with Choice and Bitcoin Improvement Proposal cards.
 
 • Bankrupt your opponents to win it all
 
