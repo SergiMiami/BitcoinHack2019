@@ -1,3 +1,15 @@
+#
+# Cryptopoly Bank Module
+#
+#   Examples:
+#
+#   *spending
+#   Bank.send(0.069165, '2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2', '2Mwse58gJGpgudj47a59KfKGWxdxHwxpCJ1')
+#
+#   *lists all addresses and balances
+#   for address in Bank.getAddresses():
+#     Bank.getAddressBalance(address=address['address'])
+#
 from block_io import BlockIo
 from uuid import uuid4
 import qrcode
@@ -52,7 +64,7 @@ class Bank:
 
 
     def generateQR(address):
-        # Create qr code instance
+        #Create qr code instance
         qr = qrcode.QRCode(
             version=1,
             error_correction=qrcode.constants.ERROR_CORRECT_H,
@@ -60,11 +72,14 @@ class Bank:
             border=4,
         )
 
+        #add data
         qr.add_data(address)
         qr.make(fit=True)
 
+        #generate
         img = qr.make_image()
 
+        #save image
         img.save('img/%s.png' % address)
 
 

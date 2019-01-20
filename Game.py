@@ -4,17 +4,26 @@ from Bank import Bank
 from Player import Player
 from Dice import Dice
 from Space import Space
+import config.py
 
 
 class Game():
+    """Tracks gameplay"""
 
     def __init__(self):
         self.round = 0
         self.players = None
-        self.playersRemain = []  # wut
         self.bank = Bank()
         self.board = []
         self.dice = Dice()
+        self.playersRemain = []  # wut
+
+        self.get_players(config.num_players)
+
+
+    def __addPlayers(self, num_players):
+        if (num_players < 2) or (8 < num_players):
+            raise ValueError('A game must have 2-8 players. You input %d ')
 
 
 
@@ -49,8 +58,5 @@ game = Game()
 
 Bank.printAddresses()
 
-#for address in Bank.getAddresses():
-#    Bank.getAddressBalance(address=address['address'])
-
-#spent
-#Bank.send(0.069165, '2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2', '2Mwse58gJGpgudj47a59KfKGWxdxHwxpCJ1')
+for i in range(1, 5000):
+    game.dice.roll()
