@@ -18,6 +18,10 @@ from django.urls import path, include
 
 from .views import welcome
 
+admin.site.site_header = "BCode Admin"
+admin.site.site_title = "BCode Admin Portal"
+admin.site.index_title = "Welcome to BCode Portal"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'player/', include('player.urls')),
