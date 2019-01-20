@@ -1,8 +1,9 @@
 from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 
 from gameplay.models import Game
 
-
+@login_required
 def home(request):
     games_first_player = Game.object.filter(
         first_player=request.user,

@@ -121,3 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+
+LOGIN_REDIRECT_URL="player_home"
+LOGOUT_REDIRECT_URL="bcode_welcome"
+LOGIN_URL="player_login"
