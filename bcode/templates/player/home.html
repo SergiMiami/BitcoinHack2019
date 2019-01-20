@@ -1,12 +1,6 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home</title>
-    <link href="{% static 'player/style.css' %}" rel="stylesheet">
-</head>
-<body>
+{% extends "base.html" %}
 
+{% block content %}
 <h1>Games statistics for user {{ user.username }}</h1>
 
 <p>There are total of {{ num_games }} games played so far.</p>
@@ -18,5 +12,4 @@
     {% endfor %}
 </ul>
 
-</body>
-</html>
+{% endblock %}
