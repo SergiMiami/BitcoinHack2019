@@ -46,6 +46,11 @@ class Game():
 
 
 game = Game()
-addresses = game.bank.getAddresses()
-for item in addresses['data']['addresses']:
-    print(item['address'])
+
+Bank.getAddresses()
+print('\n')
+Bank.getAddressBalance('2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2')
+Bank.getAddressBalance('2MybmVZC1fcwsU9tbdkUYAA3XuTSL5hhXsF')
+
+Bank.generateQR('2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2')
+Bank.generateQR('2MybmVZC1fcwsU9tbdkUYAA3XuTSL5hhXsF')
