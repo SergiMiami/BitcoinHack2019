@@ -72,6 +72,37 @@ Income Tax - KYC/AML
 
 WaterWorks - BlockCypher
 
+UK VERSION
+----------
+Leicester Square
+Fenchurch Street Station
+Whitechapel Road
+Mayfair
+Pentonville Road
+Trafalgar Square
+Fleet Street
+Strand
+Piccadilly
+Old Kent Road
+Vine Street
+Oxford Street
+The Angel Islington
+Regent Street
+Park Lane
+Bond Street
+Marylebone Station
+King’s Cross Station
+Liverpool Street Station
+Pall Mall
+Bow Street
+States Avenue
+Whitehall
+Marlborough Street
+Coventry Street
+Euston Road
+Northumberland Avenue
+Water Works
+
 Electric Company - OXT
 
 Jail - Cold Storage
@@ -84,7 +115,7 @@ Go to jail - Go to Cold Storage
 
 Community Chest - Bitcoin Improvement Proposal
 
-Chance - Consensus Rule Change
+Chance - Choice
 
 Reading - Bitstamp
 
@@ -128,7 +159,7 @@ Ventnor - Chaincode Labs
 
 Marvin - Blockstream
 
-Pacific - Canaan
+Pacific - The Silk Road
 
 North Carolina - Bitmain
 
@@ -179,7 +210,7 @@ List of Choice cards:
 
 Pieces:
 
-Trezor - Hardware wallet, from the folks that brought you Slush AntPool
+Trezor - Hardware wallet, from the folks that brought you Slush Pool
 
 Casascius Coin - The legendary original "Physical Bitcoin"
 
