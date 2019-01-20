@@ -23,6 +23,7 @@ class Bank:
         addresses = Bank.io.get_my_addresses()
         for item in addresses['data']['addresses']:
             print(item['address'])
+        print('\n')
 
 
     def getAddressBalance(address):
