@@ -1,3 +1,11 @@
+#
+#Dice Class
+#
+#for i in range(1, 5000):
+#    game.dice.roll()
+#
+#
+#
 import numpy as np
 
 class Dice:
@@ -14,13 +22,8 @@ class Dice:
         print("Rolled %d and %d" % (roll[0],roll[1]) )
         self.sum = roll.sum()
         self.double = (roll[0] == roll[1])
+        self.doubleCounter = 0
 
         if self.double:
-            doubleCount += 1
-            print("Double. Count is %d" % (doubleCount))
-            if doubleCount == 3:
-                print("3x double roll. It's a problem. Go to cold storage.")
-            else: self.roll(doubleCount)
-
-        self.double = False
-
+            self.doubleCount += 1
+            print("Double. Count is %d" % (self.doubleCount))

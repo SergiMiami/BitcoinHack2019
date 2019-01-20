@@ -1,4 +1,3 @@
-import dice
 
 class Space:
     """Template for board spaces"""
