@@ -16,7 +16,6 @@ class Game():
         self.board = []
         self.dice = Dice()
 
-        self.rollDice(self)
 
 
     def __getBoard(self, file):
@@ -46,7 +45,7 @@ class Game():
                 self.board.append([])
 
 
-    def __rollDice(self):
-            self.dice.roll(self)
-
 game = Game()
+addresses = game.bank.getAddresses()
+for item in addresses['data']['addresses']:
+    print(item['address'])
