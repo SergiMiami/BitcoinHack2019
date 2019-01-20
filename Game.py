@@ -52,4 +52,5 @@ Bank.printAddresses()
 #for address in Bank.getAddresses():
 #    Bank.getAddressBalance(address=address['address'])
 
-Bank.send(0.069969, '2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2', '2Mwse58gJGpgudj47a59KfKGWxdxHwxpCJ1')
+#spent
+#Bank.send(0.069165, '2NE5w7x2L9YWbY2NNJAfjT8zwaoGbgfCqi2', '2Mwse58gJGpgudj47a59KfKGWxdxHwxpCJ1')
