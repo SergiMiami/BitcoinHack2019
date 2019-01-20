@@ -176,3 +176,13 @@ List of Choice cards:
 -Spin up your own mining full node - Go straight to BraiinsOS
 
 -Runaway deflation in your country due to GovCorp Bank negligence (Go to LocalBitcoins)
+
+Pieces:
+
+Trezor - Hardware wallet, from the folks that brought you Slush AntPool
+
+Casascius Coin - The legendary original "Physical Bitcoin"
+
+OpenDime - The first Bitcoin Bearer Bond
+
+ColdCard - The first PSBT (BIP178) Hardware Wallet, can be used offline
