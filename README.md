@@ -25,4 +25,4 @@ Presentation: https://docs.google.com/presentation/d/1UGmVC-33LnxtA8CzqsgCC0G5dS
 
 ![alt text](https://github.com/SergiMiami/BitcoinHack2019/blob/master/bcode%20Dashboard.png?raw=true)
 
-![alt text](https://github.com/SergiMiami/BitcoinHack2019/tree/master/img/board.png?raw=true)
+![alt text](https://github.com/SergiMiami/BitcoinHack2019/blob/master/img/board.png?raw=true)
