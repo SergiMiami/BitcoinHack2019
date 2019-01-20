@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h1>Games statistics for user {{ user.username }}</h1>
+
+<p>There are total of {{ num_games }} games played so far.</p>
+<p>This player have played {{n_games}} games </p>
+
+<ul>
+    {% for g in games %}
+    <li> Game {{ g.id }}: {{ g.first_player }} vs {{ g.second_player }} </li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

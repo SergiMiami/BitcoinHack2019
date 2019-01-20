@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477156ee-f955-4274-8aeb-b50dac51ab60" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/bcode/player/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/templates/player/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bcode/player/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcode/bcode/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/bcode/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcode/bcode/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/bcode/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcode/gameplay/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/gameplay/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bcode/gameplay/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bcode/gameplay/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,50 +28,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcode/bcode/urls.py">
+        <entry file="file://$PROJECT_DIR$/bcode/player/templates/player/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bcode/player/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="e#629#661#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcode/bcode/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bcode/gameplay/models.py">
+        <entry file="file://$PROJECT_DIR$/bcode/player/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcode/gameplay/migrations/0002_game_status.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/bcode/gameplay/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -71,15 +81,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bcode/bcode/views.py" />
+        <option value="$PROJECT_DIR$/bcode/gameplay/admin.py" />
+        <option value="$PROJECT_DIR$/bcode/player/urls.py" />
         <option value="$PROJECT_DIR$/bcode/bcode/urls.py" />
         <option value="$PROJECT_DIR$/bcode/bcode/settings.py" />
+        <option value="$PROJECT_DIR$/bcode/player/templates/player/home.html" />
         <option value="$PROJECT_DIR$/bcode/gameplay/models.py" />
+        <option value="$PROJECT_DIR$/bcode/player/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="559" />
-    <option name="y" value="168" />
+    <option name="x" value="631" />
+    <option name="y" value="368" />
     <option name="width" value="1401" />
     <option name="height" value="956" />
   </component>
@@ -88,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,11 +127,31 @@
               <item name="bcode" type="462c0819:PsiDirectoryNode" />
               <item name="gameplay" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BitcoinHack2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinHack2019" type="462c0819:PsiDirectoryNode" />
+              <item name="bcode" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,12 +184,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="168" width="1401" height="956" extended-state="0" />
+    <frame x="631" y="368" width="1401" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24927536" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -172,31 +208,36 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/django/bcode/bcode/urls.py">
+    <entry file="file://$PROJECT_DIR$/django/bcode/bcode/urls.py" />
+    <entry file="file://$PROJECT_DIR$/django/bcode/bcode/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/django/bcode/bcode/settings.py" />
+    <entry file="file://$PROJECT_DIR$/bcode/gameplay/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django/bcode/bcode/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django/bcode/bcode/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/player/templates/urls.py" />
     <entry file="file://$PROJECT_DIR$/bcode/bcode/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/gameplay/migrations/0002_game_status.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bcode/bcode/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -205,22 +246,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcode/bcode/settings.py">
+    <entry file="file://$PROJECT_DIR$/bcode/player/templates/player/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcode/gameplay/migrations/0002_game_status.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/bcode/player/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bcode/gameplay/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="435">
+          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcode/player/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
