@@ -2,7 +2,7 @@ import logging
 import sys
 
 from Game import Game
-import Spaces
+import Space
 
 
 logging.basicConfig(stream=sys.stdout, level=logging.INFO)
@@ -54,11 +54,11 @@ def main():
                 space = g.board[turn_player.pos]
 
                 # Pay taxes
-                if isinstance(space, spaces.Tax):
-                    turn_player.pay(space.tax, g.bank)
+                if isinstance(space, Space.Tax):
+                    turn_player.pay(Space.tax, g.bank)
 
                 # Choose property strategy
-                elif isinstance(space, spaces.Property):
+                elif isinstance(space, Space.Property):
                     turn_player.visit_property(space)
 
                 # If a player owns monopolies
@@ -70,7 +70,6 @@ def main():
 
         if g.round == 10:
             break
-
 
 if __name__ == '__main__':
     main()

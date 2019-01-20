@@ -1,24 +1,27 @@
 #Player Class
 
 from uuid import uuid4
-from Bank import Bank
+import config
 
 class Player:
-
 
     def __init__(self):
         self.id = uuid4()
         self.cash = 0
         self.properties = []
         self.position = 0
+        self.jail_turns = 0
+        self.jail_cards = 0
         self.bankrupt = False
         self.addresses = []
 
-
     def move(self, roll):
         """Mooves player around the board"""
+
+        self.old_position = self.position
         self.position += roll
 
+        #PASS GO, MINE A BLOCK, GET SOME COIN
         if self.position >= 40:
             self.position = 0
             self.cash += 200
