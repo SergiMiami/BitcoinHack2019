@@ -31,3 +31,7 @@ Future feature wishlist:
 -Add links for additional resources on each concept, company, etc
 
 -Regular (Semi-annual?) updates to make sure the most current and relevant concepts are highlighted to players
+
+-Figure out a co-op mode where players can defeat the bank by decentralizing it's functions amongst themselves
+
+-Use colored coins or counterparty to put assets on chain
