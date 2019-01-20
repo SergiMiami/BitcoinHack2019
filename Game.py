@@ -17,7 +17,7 @@ class Game:
         self.board = []
         self.dice = Dice()
 
-        self.getplayers(config.num_players)
+        self.getPlayers(config.num_players)
         self.getBoard(config.board_filename)
         self.passDice()
 
