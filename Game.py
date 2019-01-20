@@ -16,15 +16,16 @@ class Game():
         self.bank = Bank()
         self.board = []
         self.dice = Dice()
-        self.playersRemain = []  # wut
 
-        self.get_players(config.num_players)
+        self.__getplayers(config.num_players)
 
 
-    def __addPlayers(self, num_players):
+    def __getPlayers(self, num_players):
         if (num_players < 2) or (8 < num_players):
             raise ValueError('A game must have 2-8 players. You input %d ')
 
+        self.players = [Player(p) for p in range(1, num_players + 1)]
+        self.playersRemain = num_players  # wut
 
 
     def __getBoard(self, file):
