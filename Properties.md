@@ -141,39 +141,48 @@ Boardwalk - Lightning Network
 
 List of BIP cards:
 
--BIP 0001 (Process)- BIP Purpose and Guidelines (Amir Taki)
+-BIP1 - BIP Purpose and Guidelines (Amir Taki) - Proceed to next BIPs space, draw another BIP, and collect block reward if passing New Block
 
--Confidential Transactions
+-BIP 32 - Heirarchical Deterministic Wallets - Proceed to Electrum, collect block reward if passing New Block
 
--SegWit
+-BIP39 - Mnemonic Seeds - Get out of Cold Storage free card
 
--Merkalized Abstract Syntax Trees
+-BIP63 - Stealth Addresses - Proceed to Samourai, collect block reward if passing New Block
 
--Schnorr Signatures
+-BIP148 - SegWit - Proceed to next BIPs space, draw another BIP, and collect block reward if passing New Block
 
--Dandelion
+-BIP156 - Dandelion - Proceed to The Silk Road, collect block reward if passing New Block
 
--Heirarchical Deterministic Wallets
+-BIP199 - HTLC (Hashed Time-Lock Contracts) - Proceed straight to Lightning Network, collect block reward if passing New Block
 
--Mnemonic Seeds
+-BIP??? - Schnorr Signatures - Proceed to New Block and collect a double block reward
 
--Stealth Addresses
+List of Choice cards:
 
--Malleability Fix
+-Blocksize Debate (Go straight to nearest exchange)
 
--Pay to Script Hash
+-51% attack (Bank creates doublespend of 500,000 bits to kitty)
 
--OP_CHECKLOCKTIMEVERIFY
+-Lose phone, Restore from Seed (Go to Warm Storage)
 
+-Laptop stolen, Never saved Mnemonic (Pay 15% of balance to Faucet)
 
-List of Consensus cards:
+-EMP strikes your city, Restore from paper wallet (Go to Cold Storage)
 
--Blocksize Debate
+-Price spike - Implement Glacier Protocol (Go to Cold Storage (Do Not Create New Block))
 
--51% attack
+-UASF (User Activated Soft Fork) - Go straight to nearest BIPs space
 
--Lose Private Keys and Restore from Seed (Go to Warm Storage)
+-Spin up your own mining full node - Go straight to BraiinsOS
 
--Glacier Protocol (Go to Cold Storage)
+-Runaway deflation in your country due to GovCorp Bank negligence (Go to LocalBitcoins)
 
--
+Pieces:
+
+Trezor - Hardware wallet, from the folks that brought you Slush AntPool
+
+Casascius Coin - The legendary original "Physical Bitcoin"
+
+OpenDime - The first Bitcoin Bearer Bond
+
+ColdCard - The first PSBT (BIP178) Hardware Wallet, can be used offline
